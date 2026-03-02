@@ -1,0 +1,569 @@
+# Copyright (C) 2024 Axiom Team
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Axiom WP Migrate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/your-org/axiom-wp-migrate/issues\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI 2.x.x\n"
+"X-Domain: axiom-wp-migrate\n"
+
+#. Plugin Name of the plugin
+msgid "Axiom WP Migrate"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/your-org/axiom-wp-migrate"
+msgstr ""
+
+#. Description of the plugin
+msgid "Safe and controllable migration of WordPress database between environments (local/stage/prod)."
+msgstr ""
+
+#. Author of the plugin
+msgid "Axiom Team"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Axiom Migrate"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Dashboard"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Migrations"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Connections"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Backups"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/AdminPage.php
+msgid "Logs"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Welcome to Axiom WP Migrate"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Safe and controllable migration of WordPress database between environments."
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Quick Actions"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "New Migration"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Start a new push or pull migration"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Go to Migrations"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Manage Connections"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "View Backups"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Recent Jobs"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "No migration jobs yet."
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "ID"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Type"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Status"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Created"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "View all migrations →"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "System Status"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Plugin Version"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "PHP Version"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "WordPress Version"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Database"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Max Execution Time"
+msgstr ""
+
+#: templates/admin/dashboard.php
+msgid "Memory Limit"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Push Database"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Send this database to a remote environment"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Destination"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Select connection..."
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Tables"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "All tables"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Content only (posts, terms)"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "No users"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Custom selection"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Options"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Dry run (preview only)"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Create backup before migration"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Pull Database"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Download database from a remote environment"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Source"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Export / Import"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Export to SQL file or import from SQL file"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Export"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "File Path"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Export Database"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Import"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "SQL File"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Import SQL"
+msgstr ""
+
+#: templates/admin/migrations.php
+msgid "Migration Progress"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Add New Connection"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Name"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "URL"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Key ID"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "No connections configured."
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Unknown"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Test"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "A friendly name for this connection"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Full URL of the remote WordPress site"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Access Key"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Shared secret key for authentication"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Save Connection"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Testing..."
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Connected"
+msgstr ""
+
+#: templates/admin/connections.php
+msgid "Are you sure you want to delete this connection?"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Backup name"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Create Backup"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "No backups found."
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Size"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Available"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Missing"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Restore"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Download"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "WARNING: This will overwrite your database. Are you sure?"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Restore completed successfully"
+msgstr ""
+
+#: templates/admin/backups.php
+msgid "Restore failed:"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Chunk Size"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Size of data chunks for transfer (in bytes). Default: 5MB"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Max Retries"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Number of retry attempts for failed operations"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Backup Retention (Days)"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Number of days to keep backups"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Backup Retention (Count)"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Minimum number of recent backups to keep"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Safety Options"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Require backup before migration (recommended)"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Enforce HTTPS for remote connections"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Plugin Information"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Version"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "License"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "View Documentation"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Migration Logs"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "All Levels"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Debug"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Info"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Warning"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Error"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Critical"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Export CSV"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "No logs found."
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Timestamp"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Action"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Message"
+msgstr ""
+
+#: templates/admin/logs.php
+msgid "Context"
+msgstr ""
+
+#: src/Infrastructure/AuditLogger.php
+msgid "Unauthorized"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Saving..."
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Failed to save connection"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Connection failed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "This is a dry run. Continue?"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Migration failed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Exporting..."
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Export completed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Export failed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "WARNING: This will overwrite your database. Continue?"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Dry run completed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Import completed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Import failed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Restore failed"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Are you sure you want to delete this backup?"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Failed to delete backup"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Connection not found"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Push migration started"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Pull migration started"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Backup not found"
+msgstr ""
+
+#: axiom-wp-migrate.php
+msgid "Failed to export logs"
+msgstr ""

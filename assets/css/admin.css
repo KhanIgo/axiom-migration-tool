@@ -1,0 +1,359 @@
+/**
+ * Axiom WP Migrate - Admin Styles
+ */
+
+/* Dashboard */
+.awm-dashboard {
+    max-width: 1200px;
+}
+
+.awm-welcome-panel {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    border-left-color: #2271b1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.awm-welcome-panel h2 {
+    margin-top: 0;
+}
+
+.awm-quick-actions {
+    margin-top: 30px;
+}
+
+.awm-action-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.awm-action-card {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.awm-action-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.awm-action-card p {
+    color: #646970;
+    margin-bottom: 15px;
+}
+
+/* Dashboard Widgets */
+.awm-dashboard-widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.awm-widget {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 15px;
+}
+
+.awm-widget h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+/* Status Badges */
+.awm-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.awm-status-created {
+    background: #f0f0f1;
+    color: #666;
+}
+
+.awm-status-running {
+    background: #e5f5fa;
+    color: #0073aa;
+}
+
+.awm-status-completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.awm-status-failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.awm-status-paused {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Status Table */
+.awm-status-table {
+    width: 100%;
+}
+
+.awm-status-table th {
+    text-align: left;
+    padding: 8px 0;
+    font-weight: 600;
+    width: 40%;
+}
+
+.awm-status-table td {
+    padding: 8px 0;
+}
+
+.awm-status-table tr:not(:last-child) {
+    border-bottom: 1px solid #f0f0f1;
+}
+
+/* Migrations Page */
+.awm-migrations {
+    max-width: 1400px;
+}
+
+.awm-migration-forms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.awm-form-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+}
+
+.awm-form-card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.awm-form-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.awm-form-card hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #f0f0f1;
+}
+
+/* Progress Bar */
+.awm-progress-bar {
+    width: 100%;
+    height: 30px;
+    background: #f0f0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.awm-progress-fill {
+    height: 100%;
+    background: #2271b1;
+    transition: width 0.3s ease;
+}
+
+.awm-progress-text {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* Modal */
+#awm-progress-modal,
+#awm-connection-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.awm-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.awm-modal-content {
+    position: relative;
+    background: #fff;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.awm-modal-content h2 {
+    margin-top: 0;
+}
+
+/* Connections Page */
+.awm-connections {
+    max-width: 1200px;
+}
+
+.awm-connection-status {
+    font-weight: 500;
+}
+
+/* Backups Page */
+.awm-backups {
+    max-width: 1200px;
+}
+
+.awm-create-backup-form {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #c3c4c7;
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.awm-create-backup-form input[type="text"] {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Settings Page */
+.awm-settings {
+    max-width: 800px;
+}
+
+.awm-info-table {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+}
+
+/* Logs Page */
+.awm-logs {
+    max-width: 1400px;
+}
+
+.awm-log-filters {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #c3c4c7;
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.awm-logs-table {
+    margin-top: 20px;
+}
+
+.awm-logs-table td {
+    word-break: break-word;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .awm-dashboard-widgets,
+    .awm-migration-forms {
+        grid-template-columns: 1fr;
+    }
+
+    .awm-action-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .awm-log-filters {
+        flex-wrap: wrap;
+    }
+}
+
+/* Utility */
+.awm-view-all {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.awm-view-all a {
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.awm-view-all a:hover {
+    color: #135e96;
+}
+
+/* Loading Spinner */
+.awm-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f0f0f1;
+    border-top-color: #2271b1;
+    border-radius: 50%;
+    animation: awm-spin 1s linear infinite;
+}
+
+@keyframes awm-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Notification */
+.awm-notice {
+    padding: 12px;
+    margin: 10px 0;
+    border-left: 4px solid;
+    border-radius: 2px;
+}
+
+.awm-notice-success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.awm-notice-error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.awm-notice-warning {
+    background: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.awm-notice-info {
+    background: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
